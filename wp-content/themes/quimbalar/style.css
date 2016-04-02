@@ -1781,6 +1781,6 @@ img#wpstats {
 }
 
 /*Home*/
-home #container {
+home .wrapper {
 	background: transparent;
 }
