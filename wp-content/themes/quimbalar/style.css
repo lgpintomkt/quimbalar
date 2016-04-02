@@ -1776,5 +1776,5 @@ img#wpstats {
 
 /*Home*/
 home {
-	opacity: 0;
+	background: transparent;
 }
