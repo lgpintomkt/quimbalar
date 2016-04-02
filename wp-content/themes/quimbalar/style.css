@@ -584,7 +584,6 @@ a:hover {
 	text-align: center;
 	background-color:#6ab5e2;
 	opacity:0.78;
-	border:0;
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -1512,8 +1511,8 @@ img#wpstats {
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
-		border-bottom: 1px solid #ededed;
-		border-top: 1px solid #ededed;
+		/*border-bottom: 1px solid #ededed;
+		border-top: 1px solid #ededed;*/
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
