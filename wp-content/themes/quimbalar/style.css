@@ -581,6 +581,7 @@ a:hover {
 
 /* Navigation Menu */
 .main-navigation {
+	float: right;
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
 	text-align: center;
