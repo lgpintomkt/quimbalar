@@ -737,7 +737,10 @@ article.sticky .featured-post {
 	margin-bottom: 1.714285714rem;
 	text-align: center;
 }
-.entry-content,
+.entry-content{
+	background:none;
+}
+
 .entry-summary,
 .mu_register {
 	line-height: 1.714285714;
@@ -1356,7 +1359,6 @@ a.comment-edit-link:hover {
 .template-front-page .site-content article {
 	border: 0;
 	margin-bottom: 0;
-	background:none;
 }
 .template-front-page .widget-area {
 	clear: both;
