@@ -1738,6 +1738,7 @@ img#wpstats {
 		display: none;
 	}
 	.wrapper {
+		backgrund: transparent;
 		border-top: none;
 		box-shadow: none;
 	}
