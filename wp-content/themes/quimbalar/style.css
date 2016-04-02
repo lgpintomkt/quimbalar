@@ -541,9 +541,13 @@ a:hover {
 
 /* Header */
 .site-header {
+	position: relative;
 	float: left;
+	bottom: 10%;
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
+	background: transparent;
+	opacity: 0.78;
 }
 .site-header h1,
 .site-header h2 {
