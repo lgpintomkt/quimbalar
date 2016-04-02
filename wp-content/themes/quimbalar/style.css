@@ -1352,9 +1352,11 @@ a.comment-edit-link:hover {
 	margin-bottom: 14px;
 	margin-bottom: 1rem;
 }
+
 .template-front-page .site-content article {
 	border: 0;
 	margin-bottom: 0;
+	background:none;
 }
 .template-front-page .widget-area {
 	clear: both;
