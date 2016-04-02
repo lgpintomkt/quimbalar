@@ -419,7 +419,7 @@ img.wp-smiley,
 /* Navigation */
 .site-content nav {
 	clear: both;
-	line-height: 0;
+	line-height: 2;
 	overflow: hidden;
 }
 #nav-above {
@@ -583,6 +583,8 @@ a:hover {
 	margin-top: 1.714285714rem;
 	text-align: center;
 	background-color:#6ab5e2;
+	opacity:0.78;
+	border:0;
 }
 .main-navigation li {
 	margin-top: 24px;
