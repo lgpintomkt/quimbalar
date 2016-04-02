@@ -419,7 +419,7 @@ img.wp-smiley,
 /* Navigation */
 .site-content nav {
 	clear: both;
-	line-height: 2;
+	line-height: 0;
 	overflow: hidden;
 }
 #nav-above {
