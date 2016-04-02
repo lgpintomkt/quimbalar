@@ -1352,9 +1352,6 @@ a.comment-edit-link:hover {
 
 /* =Front page template
 -------------------------------------------------------------- */
-.entry-page {
-	background: transparent;	
-}
 
 .entry-page-image {
 	margin-bottom: 14px;
@@ -1394,6 +1391,10 @@ a.comment-edit-link:hover {
 	margin: 0.571428571rem 1.714285714rem 0.571428571rem 0;
 }
 
+/*background for home page*/
+.page-id-2 .entry-content{
+	background: transparent;	
+}
 
 /* =Widgets
 -------------------------------------------------------------- */
