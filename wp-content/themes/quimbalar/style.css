@@ -542,6 +542,8 @@ a:hover {
 /* Header */
 .site-header {
 	float: left;
+	background:#6ab5e2;
+	opacity: 0.78;
 	/*padding: 24px 0;
 	padding: 1.714285714rem 0;*/
 }
