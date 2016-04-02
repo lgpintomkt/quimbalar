@@ -740,7 +740,7 @@ article.sticky .featured-post {
 	text-align: center;
 }
 .entry-content{
-	background:transparent;
+	/*background:transparent;*/
 }
 
 .entry-summary,
@@ -1352,6 +1352,9 @@ a.comment-edit-link:hover {
 
 /* =Front page template
 -------------------------------------------------------------- */
+.entry-page {
+	background: transparent;	
+}
 
 .entry-page-image {
 	margin-bottom: 14px;
