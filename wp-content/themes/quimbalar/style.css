@@ -738,7 +738,7 @@ article.sticky .featured-post {
 	text-align: center;
 }
 .entry-content{
-	background:none;
+	background:transparent;
 }
 
 .entry-summary,
