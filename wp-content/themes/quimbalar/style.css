@@ -423,8 +423,8 @@ img.wp-smiley,
 	overflow: hidden;
 }
 #nav-above {
-	padding: 24px 0;
-	padding: 1.714285714rem 0;
+	/*padding: 24px 0;
+	padding: 1.714285714rem 0;*/
 }
 #nav-above {
 	display: none;
