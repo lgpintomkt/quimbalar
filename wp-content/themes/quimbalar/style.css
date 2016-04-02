@@ -1496,6 +1496,7 @@ img#wpstats {
 	body.attachment .site-content,
 	body.full-width .site-content {
 		width: 100%;
+		background: transparent;
 	}
 	.widget-area {
 		float: right;
