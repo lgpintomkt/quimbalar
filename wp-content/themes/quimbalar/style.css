@@ -739,9 +739,7 @@ article.sticky .featured-post {
 	margin-bottom: 1.714285714rem;
 	text-align: center;
 }
-.entry-content{
-	/*background:transparent;*/
-}
+
 
 .entry-summary,
 .mu_register {
@@ -1392,7 +1390,7 @@ a.comment-edit-link:hover {
 }
 
 /*background for home page*/
-.page-id-2 .entry-content{
+.page-id-2 {
 	background: transparent;	
 }
 
