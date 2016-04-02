@@ -530,6 +530,7 @@ a:hover {
 	background-color: #fff;
 }
 .site-content {
+	background: transparent;
 	margin: 24px 0 0;
 	margin: 1.714285714rem 0 0;
 }
@@ -1778,9 +1779,4 @@ img#wpstats {
 		margin-left: 50px;
 		margin-left: 3.57142857rem;
 	}
-}
-
-/*Home*/
-body.page-id-2 {
-	background: transparent;
 }
