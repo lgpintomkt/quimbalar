@@ -358,7 +358,7 @@ video {
 	margin-left: auto;
 	margin-right: auto;
 }
-.entry-content img,
+
 .comment-content img,
 .widget img,
 img.header-image,
@@ -554,7 +554,7 @@ a:hover {
 .site-header h1 a,
 .site-header h2 a {
 	color: #515151;
-	
+	display: inline-block;
 	text-decoration: none;
 }
 .site-header h1 a:hover,
@@ -608,7 +608,7 @@ a:hover {
 }
 .main-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
-	
+	display: inline-block;
 }
 
 /* Banner */
