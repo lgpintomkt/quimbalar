@@ -55,12 +55,12 @@ body.custom-background{
 	 background-size: 100%; //propotional resize
 }
 
-.hentry {
+.site-content {
 	background=#FFF;
 }
 
-.post-2.hentry {
-	background=#transparent;
+page-id-2 .site-content {
+	background=transparent;
 }
 
 
