@@ -2560,7 +2560,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
+	background-color:#6ab5e2;
+	opacity:0.78;
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
