@@ -1614,6 +1614,7 @@ img#wpstats {
 	.template-front-page .site-content,
 	.template-front-page article {
 		overflow: hidden;
+		background:transparent;
 	}
 	.template-front-page.has-post-thumbnail article {
 		float: left;
@@ -1785,4 +1786,4 @@ img#wpstats {
 	}
 }
 
-.front-page #main > .wrapper { background-color: transparent; }
+.front-page #main > .wrapper { background: transparent; }
