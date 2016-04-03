@@ -949,7 +949,8 @@ ul.nav-menu .focus > ul,
 /* Navbar */
 .navbar {
 	background-color: #f7f5e7;
-	margin: 10px auto;
+	padding-top:10px;
+	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
 }
