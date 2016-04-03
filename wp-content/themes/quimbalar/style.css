@@ -58,14 +58,15 @@ body.custom-background{
 
 /* Navigation Menu */
 .main-navigation {
+	float: right;
 	background-color:#6ab5e2;
 	opacity:0.78;
 }
 
-.skip-link {
-    display:none;
+.menu-toggle {
+	display:none;
 }
 
-.site-main .widget-handle {
-     display: none;
+.assistive-text {
+	display:none;
 }
