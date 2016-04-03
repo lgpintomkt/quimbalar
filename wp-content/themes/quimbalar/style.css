@@ -59,6 +59,9 @@ body.custom-background{
 	background-color:#FFF;
 }
 
+.page-id-2 .site-content{
+	background-color:transparent;
+}
 
 /* Navigation Menu */
 .main-navigation {
