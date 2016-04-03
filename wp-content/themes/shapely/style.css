@@ -996,6 +996,7 @@ footer {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   opacity: 0;
+  background-image:"http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/bg-quimbalar-wp.png";
 }
 .background-image-holder img {
   display: none;
