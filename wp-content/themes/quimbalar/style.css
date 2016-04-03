@@ -55,6 +55,12 @@ body.custom-background{
 	 background-size: 100%; //propotional resize
 }
 
+.site {
+margin: 0px auto;
+max-width: auto;
+overflow: hidden;
+}
+
 .site-content {
 	background-color:#FFF;
 }
