@@ -72,6 +72,13 @@ body.custom-background{
 	display:none;
 }
 
+/* Logo */
+.site-header {
+	float: left;
+	background-color:#6ab5e2;
+	opacity:0.78;
+}
+
 .assistive-text {
 	display:none;
 }
