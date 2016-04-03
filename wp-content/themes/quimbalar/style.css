@@ -1369,6 +1369,7 @@ a.comment-edit-link:hover {
 .template-front-page .site-content article {
 	border: 0;
 	margin-bottom: 0;
+	background: transparent;
 }
 .template-front-page .widget-area {
 	clear: both;
@@ -1785,5 +1786,3 @@ img#wpstats {
 		margin-left: 3.57142857rem;
 	}
 }
-
-.front-page #main > .wrapper { background: transparent; }
