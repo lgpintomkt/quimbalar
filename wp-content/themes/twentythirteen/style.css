@@ -778,7 +778,7 @@ img.wp-smiley,
 	background-image:url("http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/bg-quimbalar-wp.png");
 	background-color:#fff;
 	background-repeat:no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 	border-left: 1px solid #f2f2f2;
 	border-right: 1px solid #f2f2f2;
 	margin: 0 auto;
