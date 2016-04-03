@@ -863,7 +863,7 @@ img.wp-smiley,
 ul.nav-menu,
 div.nav-menu > ul {
 	margin: 0;
-	padding: 0 60px 0 0;
+	padding: 0 40px 0 0;
 }
 
 .nav-menu li {
@@ -949,7 +949,7 @@ ul.nav-menu .focus > ul,
 /* Navbar */
 .navbar {
 	background-color: #f7f5e7;
-	margin: 0 auto;
+	margin: 0 20px;
 	max-width: 1600px;
 	width: 100%;
 }
@@ -958,6 +958,7 @@ ul.nav-menu .focus > ul,
 	position: absolute;
 	right: 20px;
 	top: 1px;
+	display: none;
 }
 
 .site-header .search-field {
