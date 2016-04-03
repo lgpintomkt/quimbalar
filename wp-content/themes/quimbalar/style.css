@@ -56,7 +56,6 @@ body.custom-background{
 }
 
 .site-content {
-	display:inline-block;
 	background-color:#FFF;
 }
 
@@ -73,10 +72,11 @@ body.custom-background{
 	background-color:#6ab5e2;
 	opacity:0.78;
 	list-style: none;
+	width:100%;
 }
 
 .main-navigation li {
-	display: inline-block;
+	display: inline;
 }
 
 .menu-toggle {
