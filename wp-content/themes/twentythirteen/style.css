@@ -2565,7 +2565,7 @@ footer.entry-meta {
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
-	height:100%;
+	padding-bottom:0;
 }
 
 .site-footer .widget-area,
