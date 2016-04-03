@@ -852,10 +852,6 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
-.toplogo {
-	margin-top:40px;
-}
-
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
@@ -867,7 +863,7 @@ img.wp-smiley,
 ul.nav-menu,
 div.nav-menu > ul {
 	margin: 0;
-	padding: 0 40px 0 0;
+	padding: 0 60px 0 0;
 }
 
 .nav-menu li {
