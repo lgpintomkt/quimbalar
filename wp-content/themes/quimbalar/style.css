@@ -50,6 +50,6 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 /* =Reset
 -------------------------------------------------------------- */
 
-@import url("../twentytwelve/style.css")
+@import url("http://quimbalar.herokuapp.com/wp-content/themes/twentytwelve/style.css")
 
 .page-id-2 #main > .wrapper { background-color: transparent; }
