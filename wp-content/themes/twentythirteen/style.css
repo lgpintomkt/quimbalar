@@ -852,6 +852,10 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
+.toplogo {
+	padding-top:20px;	
+}
+
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
