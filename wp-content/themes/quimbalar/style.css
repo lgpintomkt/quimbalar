@@ -55,8 +55,11 @@ body.custom-background{
 	 background-size: 100%; //propotional resize
 }
 
+.page {
+	margin-top:20%;	
+}
+
 .site-content {
-	margin-top:20%;
 	background-color:#FFF;
 }
 
@@ -64,8 +67,11 @@ body.custom-background{
 	background-color:transparent;
 }
 
+
+
 /* Navigation Menu */
 .main-navigation {
+	position:fixe;
 	float: right;
 	background-color:#6ab5e2;
 	opacity:0.78;
