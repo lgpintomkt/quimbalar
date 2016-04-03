@@ -1369,7 +1369,7 @@ a.comment-edit-link:hover {
 .template-front-page .site-content article {
 	border: 0;
 	margin-bottom: 0;
-	background: transparent;
+	background-color: transparent;
 }
 .template-front-page .widget-area {
 	clear: both;
@@ -1384,7 +1384,7 @@ a.comment-edit-link:hover {
 	margin: 0.571428571rem 0 0;
 	font-size: 13px;
 	font-size: 0.928571429rem;
-	line-height: 1.714285714;
+	line-height: 0;
 	list-style-type: square;
 	list-style-position: inside;
 }
@@ -1785,4 +1785,8 @@ img#wpstats {
 		margin-left: 50px;
 		margin-left: 3.57142857rem;
 	}
+}
+
+#post-2 {
+	background: transparent;
 }
