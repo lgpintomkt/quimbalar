@@ -66,13 +66,16 @@ body.custom-background{
 
 
 /* Navigation Menu */
+.topmenulogo {
+	width:100%;
+}
+
 .main-navigation {
 	position:fixe;
 	float: right;
 	background-color:#6ab5e2;
 	opacity:0.78;
 	list-style: none;
-	width:100%;
 }
 
 .main-navigation li {
