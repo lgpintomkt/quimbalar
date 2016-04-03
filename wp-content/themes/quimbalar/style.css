@@ -78,6 +78,8 @@ overflow: hidden;
 	background-color:#6ab5e2;
 	opacity:0.78;
 	list-style: none;
+	margin: 0 -2.85714rem;
+    width: 100%;
 }
 
 .main-navigation li {
