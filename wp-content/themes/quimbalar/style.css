@@ -523,7 +523,7 @@ a:hover {
 	z-index: 100000; /* Above WP toolbar */
 }
 
-body.home {
+wrapper.home {
 	background: transparent;	
 }
 
@@ -531,6 +531,7 @@ body.home {
 .site {
 	padding: 0 0;
 	padding: 0 1.714285714rem;
+	background: #FFF;
 }
 .site-content {
 	
