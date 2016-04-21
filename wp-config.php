@@ -53,7 +53,8 @@ define('AUTH_SALT',             getenv('AUTH_SALT'));
 define('SECURE_AUTH_SALT',      getenv('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',        getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',            getenv('NONCE_SALT'));
-
+define('AWS_ACCESS_KEY_ID',     'AKIAJX5WD3HTXV2FBZ7A');
+define('AWS_SECRET_ACCESS_KEY', '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');
 
 /**#@-*/
 
