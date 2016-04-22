@@ -57,6 +57,7 @@ body.custom-background{
 .site {
 margin: 0px auto;
 max-width: auto;
+max-height:auto;
 overflow: hidden;
 }
 
@@ -75,7 +76,6 @@ overflow: hidden;
 	position:fixed;
 	float: right;
 	background-color:#6ab5e2;
-	font-color:#fff;
 	opacity:0.78;
 	list-style: none;
 }
@@ -99,8 +99,3 @@ overflow: hidden;
 	opacity:0.78;
 }
 
-.colophon {
-	float: left;
-	background-color:#6ab5e2;
-	opacity:0.78;
-}
