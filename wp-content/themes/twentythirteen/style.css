@@ -877,7 +877,7 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #FFF;
+	color: #22388c;
 	display: block;
 	font-size: 15px;
 	line-height: 1;
@@ -890,7 +890,7 @@ div.nav-menu > ul {
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
 	background-color: #220e10;
-	color: #dc3026;
+	color: #fff;
 }
 
 .nav-menu .sub-menu,
