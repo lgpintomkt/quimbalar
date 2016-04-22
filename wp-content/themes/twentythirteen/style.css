@@ -788,7 +788,7 @@ img.wp-smiley,
 
 .site-main {
 	position: relative;
-	background: rgba(125, 125, 125, .4);
+	background: rgba(125, 125, 125, 0);
 }
 
 .page-id2 .site-main{
