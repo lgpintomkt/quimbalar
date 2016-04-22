@@ -966,8 +966,8 @@ ul.nav-menu .focus > ul,
 	color: #22388c;
 }
 
-#site-navigation a:hover{
-	background-color: #db572f;
+#site-navigation .nav-menu a:hover{
+	background-color: #220e10;
 	color: #fff;
 }
 
