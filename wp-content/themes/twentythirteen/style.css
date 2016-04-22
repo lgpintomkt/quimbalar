@@ -789,7 +789,7 @@ img.wp-smiley,
 .site-main {
 	position: relative;
 	background-color: #fff;
-	opacity:0.50;	
+	background-opacity:0.50;	
 }
 
 .site-main .sidebar-container {
