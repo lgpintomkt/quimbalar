@@ -927,6 +927,7 @@ ul.nav-menu ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
 	background-color: #db572f;
+	color: #fff;
 }
 
 ul.nav-menu li:hover > ul,
