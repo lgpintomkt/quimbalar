@@ -966,6 +966,11 @@ ul.nav-menu .focus > ul,
 	color: #22388c;
 }
 
+#site-navigation a:hover{
+	background-color: #db572f;
+	color: #fff;
+}
+
 .site-header .search-form {
 	position: absolute;
 	right: 20px;
