@@ -64,8 +64,12 @@ overflow: hidden;
 	background-color:#FFF;
 }
 
+.site-content{
+	background:#fff;
+}
+
 .page-id-2 .site-content{
-	background-color:transparent;
+	opacity:0;
 }
 
 
