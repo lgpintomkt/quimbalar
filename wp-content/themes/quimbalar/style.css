@@ -49,10 +49,6 @@ http://blog.typekit.com/2011/11/09/type-study-sizing-the-legible-letter/
 
 /* =Reset
 -------------------------------------------------------------- */
-body{
-	font-color: #FFF;	
-}
-
 body.custom-background{ 
  	 background-repeat: no-repeat;
 	 background-size: 100%; //propotional resize
@@ -79,6 +75,7 @@ overflow: hidden;
 	position:fixed;
 	float: right;
 	background-color:#6ab5e2;
+	font-color:#fff;
 	opacity:0.78;
 	list-style: none;
 }
