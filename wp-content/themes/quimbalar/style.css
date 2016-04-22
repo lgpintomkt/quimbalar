@@ -73,7 +73,7 @@ overflow: hidden;
 
 /* Navigation Menu */
 .main-navigation {
-	position:fixe;
+	position:fixed;
 	float: right;
 	background-color:#6ab5e2;
 	opacity:0.78;
@@ -99,3 +99,8 @@ overflow: hidden;
 	opacity:0.78;
 }
 
+.site-footer {
+	float: left;
+	background-color:#6ab5e2;
+	opacity:0.78;
+}
