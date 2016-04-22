@@ -790,7 +790,7 @@ img.wp-smiley,
 	position: relative;
 	background: rgb(125, 125, 125); /* Fall-back for browsers that don't
                                     support rgba */
-    background: rgba(125, 125, 125, .5);
+    background: rgba(125, 125, 125, .3);
 }
 
 .site-main .sidebar-container {
