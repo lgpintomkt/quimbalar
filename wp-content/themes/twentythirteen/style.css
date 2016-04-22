@@ -961,6 +961,10 @@ ul.nav-menu .focus > ul,
 	width: 100%;
 }
 
+.navbar a {
+	color: #22388c;
+}
+
 .site-header .search-form {
 	position: absolute;
 	right: 20px;
