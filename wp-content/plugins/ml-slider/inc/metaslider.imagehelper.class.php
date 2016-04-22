@@ -30,8 +30,9 @@ class MetaSliderImageHelper {
         $upload_dir = wp_upload_dir();
 
         $this->id = $slide_id;
-        $this->url = apply_filters("metaslider_attachment_url", $upload_dir['baseurl'] . "/" . get_post_meta( $slide_id, '_wp_attached_file', true ), $slide_id);
-        $this->path = get_attached_file( $slide_id );
+$this->url = wp_get_attachment_url($slide_id);
+$this->path = get_attached_file( $slide_id );
+apply_filters('get_attached_file', $this->path, $slide_id);
         $this->container_width = $width;
         $this->container_height = $height;
         $this->use_image_editor = $use_image_editor;
