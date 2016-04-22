@@ -50,8 +50,8 @@
 
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-                &nbsp
                 <a href="http://quimbalar.herokuapp.com/?page_id=44" style="float:right;">Área de Membros</a>
+                &nbsp
                 <a href="http://quimbalar.herokuapp.com/?page_id=42"><img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png" style="float:right;" ></a><br>
                 	<a href="http://quimbalar.herokuapp.com/"><img src="http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/logoquimbalar-orig.png" ></a><br><br>
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
