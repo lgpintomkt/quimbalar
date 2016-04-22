@@ -775,7 +775,7 @@ img.wp-smiley,
  */
 
 .site {
-	background-image:url("http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/mesa-e-toalha-fundo.png");
+	background-image:url("http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/mesa-e-toalha-fundo.png");
 	background-color:#fff;
 	background-repeat:no-repeat;
 	background-size:100%;
