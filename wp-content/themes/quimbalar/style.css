@@ -57,8 +57,7 @@ body.custom-background{
 .site {
 margin: 0px auto;
 max-width: auto;
-height:auto;
-overflow: hidden;
+overflow: visible;
 }
 
 .site-content {
