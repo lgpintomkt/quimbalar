@@ -15,7 +15,7 @@
 			<?php get_sidebar( 'main' ); ?>
 
 			<div class="site-info">
-				
+				Este  website  é  um projeto académico dos estudantes Luís Pinto, Ana Borges, Eunice Caeiro e Micael Duarte, da Licenciatura em Marketing da <a href="http://www.esce.ips.pt">ESCE</a>, não constituindo fonte de informação real da Quimbalar.
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
