@@ -44,7 +44,7 @@
 
 <script>
 
-jQuery("a[class^='button-']").click( function() {
+jQuery("a[class*=' ajax_add_to_cart-']").click( function() {
 	alert("teste");
 });
 
