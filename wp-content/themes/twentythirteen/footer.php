@@ -22,6 +22,8 @@
             
             <div style="float:right;"><img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/sgs-iso22000-icon.png">&nbsp;&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/truste-verified-icon.png">&nbsp;&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/norton-secured-powered-by-symantec-icon.png"></div>
             
+            <br><br>
+            
             </div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
