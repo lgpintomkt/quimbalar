@@ -1,6 +1,5 @@
 <?php
 
-include 'myfile.php';
 // Send the headers
 header('Content-type: text/xml');
 header('Pragma: public');
@@ -14,7 +13,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 echo '<xml>';
 
 echo '<total>';
-echo $woocommerce->cart->get_cart_subtotal();
+echo $_GET["total"];
 echo '</total>';
 
 echo '</xml>';
