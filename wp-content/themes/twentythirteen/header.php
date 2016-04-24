@@ -44,8 +44,7 @@
 
 <script>
 	jQuery(document).on("added_to_cart", function(event) {
-		alert("test");
-		//jQuery(".ajaxtotal").html(event.response.cart_total);
+		jQuery(".ajaxtotal").html(event.response.cart_total);
 	});
 </script>
 
