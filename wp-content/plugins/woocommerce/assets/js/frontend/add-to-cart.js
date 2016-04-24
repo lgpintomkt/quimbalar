@@ -10,7 +10,9 @@ jQuery( function( $ ) {
 
 	// Ajax add to cart
 	$( document ).on( 'click', '.add_to_cart_button', function() {
-
+		
+		alert("test");
+		
 		// AJAX add to cart request
 		var $thisbutton = $( this );
 
