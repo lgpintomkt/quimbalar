@@ -44,9 +44,10 @@
 
 <script>
 
-jQuery("a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart").click( function() {
+jQuery("a[class^='button-']").click( function() {
 	alert("teste");
 });
+
 </script>
 
 	<div id="page" class="hfeed site">
