@@ -110,6 +110,7 @@ jQuery( function( $ ) {
 					// Trigger event so themes can refresh other areas
 					$( document.body ).trigger( 'added_to_cart', [ fragments, cart_hash, $thisbutton ] );
 					document.getElementsByClasses("ajaxtotal").innerHTML = "21,30€";
+					document.getElementsByClasses("carrinho").src = "http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png";
 				}
 			});
 
