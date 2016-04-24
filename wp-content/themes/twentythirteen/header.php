@@ -55,7 +55,7 @@ xmlhttp.onreadystatechange=function() {
   
 $('ajax_add_to_cart').click(function() {
   xmlhttp=new XMLHttpRequest();  
-  xmlhttp.open("GET","http://quimbalar.herokuapp.com/cart-total-xml.php?total=<?php echo $woocommerce->cart->get_cart_subtotal() ?>",true);
+  xmlhttp.open("GET","http://quimbalar.herokuapp.com/cart-total-xml.php",true);
   xmlhttp.send();})
 </script>
 	<div id="page" class="hfeed site">
