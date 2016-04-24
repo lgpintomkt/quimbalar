@@ -70,7 +70,7 @@ $('ajax_add_to_cart').click(function() {
                 <a href="http://quimbalar.herokuapp.com/area-de-cliente" style="float:right;margin-left:10px">Área de Cliente</a>
                 <a href="http://quimbalar.herokuapp.com/carrinho-de-compras" style="float:right;">
 				<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar
-				<?php $subtotal=wc_cart_totals_subtotal_html(); if(strcmp($subtotal,"<span class=\"amount\">0,00€</span>")) {echo "-vazio"; } ?>.png" id="carrinho">
+				<?php $subtotal=woocommerce_cart_totals(); if(strcmp($subtotal,"<span class=\"amount\">0,00€</span>")) {echo "-vazio"; } ?>.png" id="carrinho">
                 <strong><?php wc_cart_totals_subtotal_html(); ?></strong></a><br>
                 	<a href="http://quimbalar.herokuapp.com/"><img src="http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/logoquimbalar-orig.png" ></a><br><br>
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
