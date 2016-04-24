@@ -1,5 +1,7 @@
 <?php
 
+include "/wp-content/plugins/woocommerce/templates/cart/cart.php";
+
 // Send the headers
 header('Content-type: text/xml');
 header('Pragma: public');
@@ -13,7 +15,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 echo '<xml>';
 
 echo '<total>';
-echo $_GET["total"];
+echo $woocommerce->cart->get_cart_subtotal();
 echo '</total>';
 
 echo '</xml>';
