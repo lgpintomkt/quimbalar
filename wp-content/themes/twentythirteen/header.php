@@ -45,8 +45,8 @@
 <script>
 xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementsByClassName("ammount").innerHTML=xmlhttp.responseText;
-	  if (xmlhttp.responseText!="0,00€") {
+      document.getElementsByClassName("ammount").innerHTML=xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue + "€";
+	  if (xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue!="0,00") {
 	  	document.getElementById("carrinho").src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png";
     } else { document.getElementById("carrinho").src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar-vazio.png"; 
 		}
@@ -70,7 +70,7 @@ $('ajax_add_to_cart').click(function() {
                 <a href="http://quimbalar.herokuapp.com/area-de-cliente" style="float:right;margin-left:10px">Área de Cliente</a>
                 <a href="http://quimbalar.herokuapp.com/carrinho-de-compras" style="float:right;">
 				<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar
-				<?php global $woocommerce; if($woocommerce->cart->get_cart_subtotal()==0)echo "-vazio"; ?>.png" id="carrinho">
+				<?php global $woocommerce; echo $woocommerce->cart->get_cart_subtotal(); if($woocommerce->cart->get_cart_subtotal()==0)echo "-vazio"; ?>.png" id="carrinho">
                 <strong><?php wc_cart_totals_subtotal_html(); ?></strong></a><br>
                 	<a href="http://quimbalar.herokuapp.com/"><img src="http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/logoquimbalar-orig.png" ></a><br><br>
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
