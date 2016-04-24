@@ -44,7 +44,7 @@
 
 <script>
 
-jQuery(".button").click( function() {
+jQuery("button").click( function() {
 	alert("teste");
 });
 </script>
