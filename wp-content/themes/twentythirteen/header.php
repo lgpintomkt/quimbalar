@@ -43,7 +43,7 @@
 </script>
 
 <script>
-$('ajax_add_to_cart').click(function() {alert("Test");})
+$('a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart').click(function() {alert("Test");})
 </script>
 
 	<div id="page" class="hfeed site">
