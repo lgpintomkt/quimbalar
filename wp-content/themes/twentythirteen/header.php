@@ -44,7 +44,7 @@
 
 <script>
 
-jQuery("*").click( function() {
+jQuery(".ajax_add_to_cart").click( function() {
 	alert("teste");
 });
 </script>
