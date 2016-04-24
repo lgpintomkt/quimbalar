@@ -44,13 +44,7 @@
 
 <script>
 	jQuery(document).on("added_to_cart", function(event) {
-		$.ajax({
-    url: "",
-    context: document.body,
-    success: function(s,x){
-        $(this).html(s);
-    		}
-	});
+		location.reload();
 	});
 </script>
 
