@@ -109,6 +109,7 @@ jQuery( function( $ ) {
 
 					// Trigger event so themes can refresh other areas
 					$( document.body ).trigger( 'added_to_cart', [ fragments, cart_hash, $thisbutton ] );
+					document.getElementsByClasses("ammount").innerHTML = '<strong>'+wc_cart_totals_subtotal_html()+'</strong>';
 				}
 			});
 
