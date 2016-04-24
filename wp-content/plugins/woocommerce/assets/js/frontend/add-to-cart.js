@@ -107,11 +107,11 @@ jQuery( function( $ ) {
 						$( '.cart_totals' ).stop( true ).css( 'opacity', '1' ).unblock();
 					});
 
+					
+
 					// Trigger event so themes can refresh other areas
 					$( document.body ).trigger( 'added_to_cart', [ fragments, cart_hash, $thisbutton ] );
-					alert("test");
-					$('.ajaxtotal').innerHTML = "21,30€";
-					$('.carrinho').src = "http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png";
+					
 				}
 			});
 
