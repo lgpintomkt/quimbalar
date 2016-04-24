@@ -9,7 +9,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 echo '<xml>';
 
 echo '<total>';
-echo wc_cart_totals_subtotal_html();
+echo 12;
 echo '</total>';
 
 echo '</xml>';
