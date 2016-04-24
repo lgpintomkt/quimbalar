@@ -109,7 +109,7 @@ jQuery( function( $ ) {
 
 					// Trigger event so themes can refresh other areas
 					$( document.body ).trigger( 'added_to_cart', [ fragments, cart_hash, $thisbutton ] );
-					
+					document.getElementsByClasses("ajaxtotal").innerHTML = "21,30€";
 				}
 			});
 
