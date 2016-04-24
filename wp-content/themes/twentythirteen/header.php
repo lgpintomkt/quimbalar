@@ -45,8 +45,8 @@
 <script>
 xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementsByClassName("ammount").innerHTML=xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue + "€";
-	  if (xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue!="0,00") {
+      document.getElementsByClassName("ammount").innerHTML=xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue;
+	  if (xmlhttp.getElementsByTagName("total")[0].childNodes[0].nodeValue!="0,00€") {
 	  	document.getElementById("carrinho").src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png";
     } else { document.getElementById("carrinho").src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar-vazio.png"; 
 		}
