@@ -1,11 +1,13 @@
 <?php
+
+include 'myfile.php';
 // Send the headers
 header('Content-type: text/xml');
 header('Pragma: public');
 header('Cache-control: private');
 header('Expires: -1');
 
-global $woocommerce; 
+global $woocommerce;
 
 echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 
