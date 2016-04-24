@@ -55,7 +55,7 @@ xmlhttp.onreadystatechange=function() {
   
 $('ajax_add_to_cart').click(function() {
   xmlhttp=new XMLHttpRequest();  
-  xmlhttp.open("GET",".\cart-total-xml.php",true);
+  xmlhttp.open("GET","cart-total-xml.php",true);
   xmlhttp.send();})
 </script>
 	<div id="page" class="hfeed site">
@@ -69,13 +69,8 @@ $('ajax_add_to_cart').click(function() {
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
                 <a href="http://quimbalar.herokuapp.com/area-de-cliente" style="float:right;margin-left:10px">Área de Cliente</a>
                 <a href="http://quimbalar.herokuapp.com/carrinho-de-compras" style="float:right;">
-				
-				<?php 
-					if(wc_cart_totals_subtotal_html()=="0,00€") 
-						echo "<img src=\"http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar-vazio.png\" id=\"carrinho\">" 
-					else 
-						echo "<img src=\"http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar.png\" id=\"carrinho\">" 
-						?>
+				<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar
+				<?php if(strcmp(wc_cart_totals_subtotal_html(),"0,00€")) echo "-vazio"; ?>.png" id="carrinho">
                 <strong><?php wc_cart_totals_subtotal_html(); ?></strong></a><br>
                 	<a href="http://quimbalar.herokuapp.com/"><img src="http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/logoquimbalar-orig.png" ></a><br><br>
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
