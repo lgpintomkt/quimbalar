@@ -41,6 +41,28 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+$('ajax_add_to_cart').click(function() {
+	if (str=="") {
+    document.getElementsByClassName("ammount").innerHTML="";
+    return;
+  }
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementsByClassName("ammount").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","cart-total-xml.php",true);
+  xmlhttp.send();
+}
+</script>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
