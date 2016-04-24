@@ -2645,6 +2645,10 @@ footer.entry-meta {
 	color: #22388c;
 }
 
+.site-info a{
+	color: #000574;
+}
+
 #wpstats {
 	display: block;
 	margin: -10px auto 0;
