@@ -55,7 +55,7 @@
                 <a href="http://quimbalar.herokuapp.com/carrinho-de-compras" style="float:right;">
 				<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/carrinho-de-compras-quimbalar
 				<?php global $woocommerce; if($woocommerce->cart->get_cart_contents_count() == 0) echo "-vazio"; ?>.png" id="carrinho">
-                <strong><?php wc_cart_totals_subtotal_html(); ?></strong></a><br>
+                <strong><div class="ajaxtotal"><?php wc_cart_totals_subtotal_html(); ?></div></strong></a><br>
                 	<a href="http://quimbalar.herokuapp.com/"><img src="http://quimbalar.herokuapp.com/wp-content/uploads/2016/04/logoquimbalar-orig.png" ></a><br><br>
 					<button class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></button>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
