@@ -18,7 +18,9 @@
 				Este  website  é  um projeto académico dos estudantes Luís Pinto, Ana Borges, Eunice Caeiro e Micael Duarte, da Licenciatura em Marketing da <a href="http://www.esce.ips.pt">ESCE</a>, não constituindo fonte de informação real da Quimbalar.
 			
             
-            <div style="float:right;"><img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/facebook-icon.png">&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/youtube-icon.png"></div>
+            <div style="float:left;"><img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/facebook-icon.png">&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/youtube-icon.png"></div>
+            
+            <div style="float:right;"><img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/sgs-iso22000-icon.png">&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/truste-verified-icon.png">&nbsp;<img src="http://quimbalar.s3-eu-west-1.amazonaws.com/wp-content/uploads/2016/04/norton-secured-powered-by-symantec-icon.png"></div>
             
             </div><!-- .site-info -->
 		</footer><!-- #colophon -->
