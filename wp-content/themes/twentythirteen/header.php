@@ -42,11 +42,7 @@
 
 </script>
 
-<script>
-	jQuery(document).on("added_to_cart", function(event) {
-		location.reload();
-	});
-</script>
+
 
 
 	<div id="page" class="hfeed site">
