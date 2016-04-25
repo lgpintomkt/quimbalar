@@ -245,9 +245,6 @@ class WC_Frontend_Scripts {
 	private static function get_script_data( $handle ) {
 		global $wp;
 		
-		//NASTY HACK
-		WC()->cart->calculate_totals();
-		
 		switch ( $handle ) {
 			case 'woocommerce' :
 				return array(
