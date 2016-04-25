@@ -34,7 +34,7 @@ get_header( 'shop' ); ?>
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-            <?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?> 
+            <?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?> <br>
 
 		<?php endif; ?>
 
