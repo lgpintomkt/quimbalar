@@ -69,7 +69,7 @@ if ( ! $product->is_purchasable() ) {
 			echo "\" />";
 	
 			echo "<button type=\"button\"  id=\"add10\">+10</button>&nbsp;";
-			echo "<button type=\"button\"  id=\"add100\">+100</button><br>";
+			echo "<button type=\"button\"  id=\"add100\">+100</button><br><br>";
 	
 			echo "<button type=\"submit\" class=\"single_add_to_cart_button button alt\">";
 			echo esc_html( $product->single_add_to_cart_text() ); 
