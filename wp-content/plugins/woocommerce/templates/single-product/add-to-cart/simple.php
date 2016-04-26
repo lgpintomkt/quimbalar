@@ -1,3 +1,15 @@
+<script>
+$("#add10").click(function(){
+    $("#quantityproducts").val(10);
+}); 
+$("#add50").click(function(){
+    $("#quantityproducts").val(50);
+}); 
+$("#add100").click(function(){
+    $("#quantityproducts").val(100);
+}); 
+</script>
+
 <?php
 /**
  * Simple product add to cart
@@ -14,6 +26,8 @@
  * @package 	WooCommerce/Templates
  * @version     2.1.0
  */
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -52,7 +66,11 @@ if ( ! $product->is_purchasable() ) {
 	 		}
 	 	?>
 
-	 	<input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->id ); ?>" />
+	 	<input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->id ); ?>" id="quantityproducts"/>
+
+		<button type="submit" class="single_add_to_cart_button button alt" id="add10">+10</button>
+        <button type="submit" class="single_add_to_cart_button button alt" id="add50">+50</button>
+        <button type="submit" class="single_add_to_cart_button button alt" id="add100">+100</button><br>
 
 	 	<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
