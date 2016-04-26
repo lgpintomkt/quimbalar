@@ -63,9 +63,9 @@ if ( ! $product->is_purchasable() ) {
 	 		}
 	 	
 		if(is_user_logged_in() ) {
-	 	echo "<input type=\"hidden\" name=\"add-to-cart\" value=";
+	 	echo "<input type=\"hidden\" name=\"add-to-cart\" value=\"";
 		echo esc_attr( $product->id );
-		echo "id=\"quantityproducts\"/>";
+		echo "\" id=\"quantityproducts\"/>";
 
 		echo "<button type=\"button\"  id=\"add10\">+10</button>&nbsp;";
         echo "<button type=\"button\"  id=\"add100\">+100</button><br>";
