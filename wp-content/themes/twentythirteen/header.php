@@ -50,10 +50,12 @@
 
 <script>
 function myAdd10(){
-   document.getElementById('quantityInputToChange').value = '10';
+   var number = parseInt(document.getElementById('quantityInputToChange').value)+10;
+    document.getElementById('quantityInputToChange').value = number.toString(); 
 };
 function myAdd100(){
-    document.getElementById('quantityInputToChange').value = '100'; 
+	var number = parseInt(document.getElementById('quantityInputToChange').value)+100;
+    document.getElementById('quantityInputToChange').value = number.toString(); 
 }; 
 </script>
 
