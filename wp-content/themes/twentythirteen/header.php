@@ -48,6 +48,14 @@
 	});
 </script>
 
+<script>
+$("#add10").click(function(){
+    $('input[title="Qtd"]').val('10');
+}); 
+$("#add100").click(function(){
+    $('input[title="Qtd"]').val('100');
+}); 
+</script>
 
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">

@@ -1,12 +1,3 @@
-<script>
-$("#add10").click(function(){
-    $('input[title="Qtd"]').val('10');
-}); 
-$("#add100").click(function(){
-    $('input[title="Qtd"]').val('100');
-}); 
-</script>
-
 <?php
 /**
  * Simple product add to cart
