@@ -68,6 +68,7 @@ if ( ! $product->is_purchasable() ) {
 		
 		  
 		}
+		else echo "Faça login para adicionar";
 		do_action( 'woocommerce_after_add_to_cart_button' );
 		?>
 	</form>
