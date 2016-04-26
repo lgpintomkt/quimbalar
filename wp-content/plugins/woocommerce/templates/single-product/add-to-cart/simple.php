@@ -1,9 +1,9 @@
 <script>
 $("#add10").click(function(){
-    $('input[title="Qtd"]').val(10);
+    $('input[title="Qtd"]').val('10');
 }); 
 $("#add100").click(function(){
-    $('input[title="information"]').val(100);
+    $('input[title="Qtd"]').val('100');
 }); 
 </script>
 
