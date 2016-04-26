@@ -1,9 +1,9 @@
 <script>
 $("#add10").click(function(){
-    $("#quantityproducts").val(10);
+    $(".input-text").val(10);
 }); 
 $("#add100").click(function(){
-    $("#quantityproducts").val(100);
+    $(".input-text").val(100);
 }); 
 </script>
 
@@ -54,25 +54,26 @@ if ( ! $product->is_purchasable() ) {
 	 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 	 	<?php
-	 		if ( ! $product->is_sold_individually() ) {
-	 			woocommerce_quantity_input( array(
-	 				'min_value'   => apply_filters( 'woocommerce_quantity_input_min', 1, $product ),
-	 				'max_value'   => apply_filters( 'woocommerce_quantity_input_max', $product->backorders_allowed() ? '' : $product->get_stock_quantity(), $product ),
-	 				'input_value' => ( isset( $_POST['quantity'] ) ? wc_stock_amount( $_POST['quantity'] ) : 1 )
-	 			) );
-	 		}
+			if(is_user_logged_in() ) {
+				if ( ! $product->is_sold_individually() ) {
+					woocommerce_quantity_input( array(
+						'min_value'   => apply_filters( 'woocommerce_quantity_input_min', 1, $product ),
+						'max_value'   => apply_filters( 'woocommerce_quantity_input_max', $product->backorders_allowed() ? '' : $product->get_stock_quantity(), $product ),
+						'input_value' => ( isset( $_POST['quantity'] ) ? wc_stock_amount( $_POST['quantity'] ) : 1 )
+					) );
+				}
 	 	
-		if(is_user_logged_in() ) {
-	 	echo "<input type=\"hidden\" name=\"add-to-cart\" value=\"";
-		echo esc_attr( $product->id );
-		echo "\" id=\"quantityproducts\"/>";
-
-		echo "<button type=\"button\"  id=\"add10\">+10</button>&nbsp;";
-        echo "<button type=\"button\"  id=\"add100\">+100</button><br>";
-
-	 	echo "<button type=\"submit\" class=\"single_add_to_cart_button button alt\">";
-		echo esc_html( $product->single_add_to_cart_text() ); 
-		echo "</button>";
+			
+			echo "<input type=\"hidden\" name=\"add-to-cart\" value=\"";
+			echo esc_attr( $product->id );
+			echo "\" />";
+	
+			echo "<button type=\"button\"  id=\"add10\">+10</button>&nbsp;";
+			echo "<button type=\"button\"  id=\"add100\">+100</button><br>";
+	
+			echo "<button type=\"submit\" class=\"single_add_to_cart_button button alt\">";
+			echo esc_html( $product->single_add_to_cart_text() ); 
+			echo "</button>";
 		
 		  
 		}
