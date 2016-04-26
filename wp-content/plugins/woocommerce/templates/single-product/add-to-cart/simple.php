@@ -70,9 +70,9 @@ if ( ! $product->is_purchasable() ) {
 		echo esc_attr( $product->id );
 		echo "id=\"quantityproducts\"/>";
 
-		echo "<button type=\"submit\"  id=\"add10\">+10</button>";
-        echo "<button type=\"submit\" id=\"add50\">+50</button>";
-        echo "<button type=\"submit\"  id=\"add100\">+100</button><br>";
+		echo "<button type=\"button\"  id=\"add10\">+10</button>&nbsp;";
+        echo "<button type=\"button\" id=\"add50\">+50</button>&nbsp;";
+        echo "<button type=\"buttont\"  id=\"add100\">+100</button><br>";
 
 	 	echo "<button type=\"submit\" class=\"single_add_to_cart_button button alt\">";
 		echo esc_html( $product->single_add_to_cart_text() ); 
