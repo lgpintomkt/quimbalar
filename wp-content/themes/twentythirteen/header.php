@@ -49,12 +49,12 @@
 </script>
 
 <script>
-$("#add10").click(function(){
+function myAdd10(){
     $('input[title="Qtd"]').val('10');
-}); 
-$("#add100").click(function(){
+};
+function myAdd100(){
     $('input[title="Qtd"]').val('100');
-}); 
+}; 
 </script>
 
 	<div id="page" class="hfeed site">
