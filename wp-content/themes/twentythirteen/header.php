@@ -50,10 +50,10 @@
 
 <script>
 function myAdd10(){
-    $('input[title="Qtd"]').val('10');
+   document.getElementById('quantityInputToChange').value = '10';
 };
 function myAdd100(){
-    $('input[title="Qtd"]').val('100');
+    document.getElementById('quantityInputToChange').value = '100'; 
 }; 
 </script>
 
