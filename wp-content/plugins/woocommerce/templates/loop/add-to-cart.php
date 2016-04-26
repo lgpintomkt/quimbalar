@@ -35,4 +35,4 @@ echo apply_filters( 'woocommerce_loop_add_to_cart_link',
 $product );
 }
 
-//else echo "Faça login para adicionar";
+else echo "Faça login<br>para adicionar";
