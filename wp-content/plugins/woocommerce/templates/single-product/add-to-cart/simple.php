@@ -64,17 +64,23 @@ if ( ! $product->is_purchasable() ) {
 	 				'input_value' => ( isset( $_POST['quantity'] ) ? wc_stock_amount( $_POST['quantity'] ) : 1 )
 	 			) );
 	 		}
-	 	?>
+	 	
+		if(is_user_logged_in() ) {
+	 	echo "<input type=\"hidden\" name=\"add-to-cart\" value=";
+		echo esc_attr( $product->id );
+		echo "id=\"quantityproducts\"/>";
 
-	 	<input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->id ); ?>" id="quantityproducts"/>
+		echo "<button type=\"submit\"  id=\"add10\">+10</button>";
+        echo "<button type=\"submit\" id=\"add50\">+50</button>";
+        echo "<button type=\"submit\"  id=\"add100\">+100</button><br>";
 
-		<button type="submit" class="single_add_to_cart_button button alt" id="add10">+10</button>
-        <button type="submit" class="single_add_to_cart_button button alt" id="add50">+50</button>
-        <button type="submit" class="single_add_to_cart_button button alt" id="add100">+100</button><br>
-
-	 	<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
-
-		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
+	 	echo "<button type=\"submit\" class=\"single_add_to_cart_button button alt";
+		echo esc_html( $product->single_add_to_cart_text() ); 
+		echo "</button>";
+		
+		do_action( 'woocommerce_after_add_to_cart_button' );  
+		}
+		?>
 	</form>
 
 	<?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
